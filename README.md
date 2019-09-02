@@ -17,7 +17,7 @@
   ### 相关的动画调用方法<br>
    ### 布局文件
    <com.ancroid.work.clockview.ClockView<br>
-        android:layout_width="wrap_content"<br>在布局文件中给控件宽高具体高度，否则使用默认300像素大小
+        android:layout_width="wrap_content"在布局文件中给控件宽高具体高度，否则使用默认300像素大小<br>
         android:layout_height="wrap_content"<br>
         android:id="@+id/clockview"/><br>
    ### 相关方法
