@@ -26,6 +26,7 @@
    设置圆心点的半径：setCircleCenter(int circleCenter)<br>
    设置秒针的颜色：setSecondColor(int secondColor)默认红色<br>
    设置分针时针的颜色：setMinuteColor(int minuteColor)默认黑色<br>
+   停止动画：stop()当页面销毁时停止动画，否则会内存泄露<br>
   
   
   ### 图片描述<br>
