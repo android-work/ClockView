@@ -11,7 +11,7 @@
   
 ## 2、导入依赖<br>
   dependencies {<br>
-	        implementation 'com.github.android-work:CircleView:v1.0.1'
+	        implementation 'com.github.android-work:ClockView:v1.0.1'
 	}<br>
   
   ### 相关的动画调用方法<br>
