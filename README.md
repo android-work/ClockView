@@ -31,4 +31,4 @@
   ### 图片描述<br>
    https://github.com/android-work/ClockView/blob/master/IMAGE/B58ACD46-5106-4cdf-9D0A-45DFC99CB8C5.png
    
-![图片描述](https://github.com/android-work/CircleView/blob/master/IMAGE/53661197-D9C3-4ca0-908F-676BC9ABF6B3.png)
+![图片描述](https://github.com/android-work/ClockView/blob/master/IMAGE/B58ACD46-5106-4cdf-9D0A-45DFC99CB8C5.png)
