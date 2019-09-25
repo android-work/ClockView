@@ -7,6 +7,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.os.Handler;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import java.util.Calendar;
@@ -72,6 +73,8 @@ public class ClockView extends View {
 
     public void setCircleCenter(int circleCenter) {
         this.circleCenter = circleCenter;
+        pointPaint.setStrokeWidth(circleCenter);
+        invalidate();
     }
 
     public void setSecondColor(int secondColor) {
@@ -176,7 +179,7 @@ public class ClockView extends View {
                 size = defaultSize;
                 break;
             case MeasureSpec.EXACTLY:
-                size = MeasureSpec.getSize(mode);
+                size = MeasureSpec.getSize(measureSpec);
                 break;
                 default:
         }
